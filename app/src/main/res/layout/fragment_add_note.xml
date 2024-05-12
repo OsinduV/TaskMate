@@ -18,7 +18,7 @@
             android:layout_alignParentTop="true"
             android:layout_marginTop="16dp"
             android:fontFamily="@font/poppins"
-            android:text="Add Note."
+            android:text="@string/addText"
             android:textStyle="bold"
             android:textColor="@color/color2"
             android:textSize="24sp" />
@@ -31,7 +31,7 @@
             android:layout_marginTop="16dp"
             android:background="@drawable/color1_border"
             android:fontFamily="@font/poppins"
-            android:hint="Enter the title"
+            android:hint="@string/titleHint"
             android:maxLines="1"
             android:padding="12dp"
             android:textSize="20sp" />
@@ -40,7 +40,7 @@
             android:id="@+id/addNoteDesc"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:hint="Enter the description"
+            android:hint="@string/descHint"
             android:gravity="top"
             android:padding="12dp"
             android:textSize="18sp"

@@ -30,6 +30,7 @@ its basically safe way of writting code so that we don't face any error in the f
     @Query("SELECT * FROM NOTES ORDER BY id DESC")
     fun getAllNotes(): LiveData<List<Note>>
 
+
     @Query("SELECT * FROM NOTES WHERE noteTitle LIKE :query OR noteDesc Like :query")
     fun searchNote(query: String?): LiveData<List<Note>>
 
